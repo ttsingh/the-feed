@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Press+Start+2P&family=Rock+Salt&display=swap');
+
+body {
+  top: 0px;
+  margin: 0;
+  background-color: darkslategrey;
+  color: azure;
+  font-family: "Rock Salt", cursive;
+  font-size: 27px;
+}
+
+.header img {
+  width: 250px;
+  padding: 5px;
+  margin: 3px;
+  text-align: left;
+  top: 0px;
+  left: 0px;
+}
+
+.header h1{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 47px;
+  position:absolute;
+  text-align: center;
+  top: 100px;
+  left: 100px;
+  right: 75px;
+}
+
+header h1:hover{
+  color: lightgreen;
+  text-decoration: none;
+}
+
+header img:hover {
+  opacity: 0.5;
+}
+
+nav h2 {
+  color: white;
+  text-align: center;
+  font-size: 41px;
+}
+
+nav {
+  background-color: lightgreen;
+  border: 5px green solid;
+  color: white;
+  font-family: 'Covered By Your Grace', cursive;  
+  font-size: 29px;
+  text-decoration: none;
+  line-height: 5px;
+  padding: 27px;
+  margin: 7px;
+  text-align: left;
+  width: 13%;
+  top: 25px;
+}
+
+nav p{
+  color: white;
+  text-decoration:underline lightgreen;
+}
+nav p:hover {
+  background-color: darkgreen;
+  color: transparent;
+  text-decoration: line-through darkgreen;
+  text-decoration: underline lightgreen;
+}
+
+nav h2:hover {
+  color: darkgreen;
+}
+
+main {
+  background-color: black;
+  border: 3px lightgreen solid;
+  padding: 33px;
+  margin: 9px;
+  text-align: center;
+  width: 87%;
+}
+
+main img{
+  border: 5px white solid;
+}
+
+footer {
+  font-family: "Press Start 2P", cursive;
+  font-size: 17px;
+  background-color: black;
+  color: white;
+  border: 2.5px white solid;
+  padding: 13px;
+  margin: 5px;
+  text-align: right;
+  left: 50%;
+}
+
+footer h5 {
+  width: 95%;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+#layout {
+  top: 0%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+#blck {
+  background-color: black;
+}
+
+#gif {
+  position: absolute;
+  top: 5%;
+  left: 25%;
+}
+
+.cyan {
+  background-color: lightcyan;
+  border: 13px lightcyan solid;
+  color: black;
+}
+
+.blue {
+  background-color: lightblue;
+  border: 13px lightblue solid;
+  color: black;
+}
+
+
+.dblue {
+  background-color: lightskyblue;
+  border: 13px lightskyblue solid;
+  color: black;
+}
+
+.fourth {
+  background-color: rgb(4, 92, 140);
+  border: 13px rgb(4, 92, 140) solid;
+  color: white;
+}
+
+.fifth {
+  background-color: rgb(1, 35, 60);
+  border: 13px rgb(1, 35, 60) solid;
+  color: white;
+}
+
+.fifteenth{
+  background-color: rgb(4, 92, 140);
+  border: 13px rgb(4, 92, 140) solid;
+  color: white;
+}
+
+.sixth {
+  background-color: lightskyblue;
+  border: 13px lightskyblue solid;
+  color: black;
+}
+
+.seventh {
+  background-color: lightblue;
+  border: 13px lightblue solid;
+  color: black;
+}
+
+.eighth {
+  background-color: lightcyan;
+  border: 13px lightcyan solid;  
+  color: black;
+}
+
+.ninth {
+  background-color: lightblue;
+  border: 13px lightblue solid;  
+  color: black;
+}
+
+.sixteenth{
+  background-color: lightskyblue;
+  border: 13px lightskyblue solid;  
+  color: black;
+}
+
+.tenth {
+  background-color: rgb(4, 92, 140);
+  border: 13px rgb(4, 92, 140) solid;
+  color: white;
+}
+
+.eleventh {
+  background-color: rgb(1, 35, 60);
+  border: 13px rgb(1, 35, 60) solid;  
+  color: white;
+}
+
+.twelveth {
+  background-color: rgb(4, 92, 140);
+  border: 13px rgb(4, 92, 140) solid;  
+  color: white;
+}
+
+.seventeenth{
+  background-color: lightskyblue;
+  border: 13px lightskyblue solid;  
+  color: black;
+}
+
+.thirteenth {
+  background-color: lightblue;
+  border: 13px lightblue solid;  
+  color: black;
+}
+
+.fourteenth {
+  background-color: lightcyan;
+  border: 13px lightcyan solid;  
+  color: black;
+}
+
+#gif:hover {
+  opacity: 0;
+}
+
+footer h5:hover {
+  color: black;
+  text-decoration: line-through white;
+}
